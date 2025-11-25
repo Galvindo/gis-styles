@@ -1,0 +1,82 @@
+        body { background-color: #f8f9fa; font-family: Arial, sans-serif; }
+        .report-title { text-align:center; margin:20px 0; font-size:24px; font-weight:bold; }
+
+        .week-even { background:#efefef !important; }
+        .week-odd  { background:#ffffff !important; }
+
+/* NEW: highlight minggu lewat */
+        .week-past { background:#ffe5e5 !important; color:#b30000; font-weight:bold; cursor:pointer; }
+        .week-now  { background:#e7f1ff !important; cursor:pointer; }
+        .week-future { background:#ffffff !important; cursor:pointer; }
+
+        td { cursor:pointer; }
+		
+		/* HEADER TABULATOR */
+.tabulator .tabulator-header {
+    background: linear-gradient(to bottom, #ffffff, #f1f1f1);
+    border-bottom: 2px solid #dee2e6;
+    font-weight: bold;
+}
+
+.tabulator .tabulator-header .tabulator-col {
+    padding: 10px 6px;
+    font-size: 14px;
+}
+
+/* BORDER TABLE */
+.tabulator {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+}
+
+/* HOVER ROW */
+.tabulator-row:hover {
+    background-color: #f7fbff !important;
+}
+
+/* ODD-EVEN ROW STRIPED */
+.tabulator-row:hover {
+    background-color: #fafafa;
+}
+
+/* =============== MEDIUM COMPACT TABULATOR =============== */
+
+/* Tinggi baris sedikit diperkecil */
+.tabulator-row {
+    min-height: 32px !important;
+}
+
+/* Cell padding dikurangi sedikit */
+.tabulator-cell {
+    padding: 4px 6px !important;   /* default biasanya 8-12px */
+    font-size: 13px;               /* sedikit lebih kecil dari normal */
+}
+
+/* Header tidak terlalu besar */
+.tabulator .tabulator-header .tabulator-col {
+    padding: 6px 6px !important;
+    font-size: 13px;
+}
+
+/* Tombol di dalam tabel sedikit diperkecil */
+#hutangTable .btn {
+    padding: 4px 8px !important;
+    font-size: 12px !important;
+}
+
+/* Header title tetap rapi */
+.tabulator .tabulator-header {
+    min-height: 36px !important;
+}
+
+/* Hilangkan scroll kiri–kanan */
+#hutangTable .tabulator-tableholder {
+    overflow-x: hidden !important;
+}
+
+/* Paksa tabel tidak melebihi lebar container */
+#hutangTable .tabulator-table {
+    width: 100% !important;
+    min-width: 100% !important;
+}
